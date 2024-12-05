@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+class student
+{
+    public:
+     int id;
+     float gpa;
+
+};
+
+int main()
+{
+    student Alim;
+    Alim.id=101;
+    Alim.gpa=3.44;
+    cout<<Alim.id<< " "<<  Alim.gpa<< endl;
+
+    student Suparna;
+    Suparna.id=104;
+    Suparna.gpa=3.78;
+    cout<< Suparna.id<< " "<<  Suparna.gpa;
+}
