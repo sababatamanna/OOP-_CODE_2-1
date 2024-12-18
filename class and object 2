@@ -10,7 +10,7 @@ int main()
 {
     Student s1;
     s1.name = "Sababa Tamanna"; // Use double quotes
-    s1.roll = 2202149;
+    cin>>s1.roll;
     s1.gpa = 3.7;
 
     Student s2;
