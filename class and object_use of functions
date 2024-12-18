@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+class car{
+public:
+    string name;
+    int price;
+    int seats;
+    string type;
+};
+void print(car c)
+{
+    cout<<c.name<<" "<<c.price<<" "<<c.seats<<" "<<c.type<<""<<endl;
+}
+int main()
+{
+    car c1;
+    c1.name="Noah";
+    c1.price=150000;
+    c1.seats=5;
+    c1.type="Sedan";
+     car c2;
+    c2.name="Honda city";
+    c2.price=1800000;
+    c2.seats=7;
+    c2.type="Hatchback";
+
+    car c3;
+    c3.name="Totoya Fortune";
+    c2.price=50000;
+    c3.seats=8;
+    c3.type= "Suv";
+
+    print(c1);
+    print(c2);
+    print(c3);
+}
