@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+class Student{
+public:
+    string name;
+    int roll;
+    float gpa;
+};
+int main()
+{
+    Student s1;
+    s1.name = "Sababa Tamanna"; // Use double quotes
+    s1.roll = 2202149;
+    s1.gpa = 3.7;
+
+    Student s2;
+    s2.name = "Rahat"; // Use double quotes
+    s2.roll = 2202140;
+    s2.gpa = 3.2;
+
+    cout << s1.name << endl;
+}
