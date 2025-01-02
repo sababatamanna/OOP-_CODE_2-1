@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+class Student
+{
+    public:
+    int id;
+    double cgpa;
+    void display()
+    {
+        cout<<id<<" "<<cgpa<<endl;
+    }
+    void setValue(int x,double y)
+    {
+        id=x;
+        cgpa=y;
+    }
+};
+
+int main()
+{
+    Student Sababa,Suparna;
+    Sababa.setValue(2202149,3.71);
+    Sababa.display();
+
+    Suparna.setValue(2202149,3.71);
+    Suparna.display();
+}
