@@ -1,3 +1,4 @@
+CODE 1:
 #include<iostream>
 using namespace std;
 class car{
@@ -33,4 +34,33 @@ int main()
     print(c1);
     print(c2);
     print(c3);
+}
+CODE 2:
+#include<iostream>
+using namespace std;
+
+class Student
+{
+    public:
+    int id;
+    double cgpa;
+    void display()
+    {
+        cout<<id<<" "<<cgpa<<endl;
+    }
+};
+
+int main()
+{
+    Student Sababa;
+    Sababa.id =2202149;
+    Sababa.cgpa=3.71;
+    Sababa.display();
+    cout<<Sababa.id<<" "<<Sababa.cgpa<<endl;
+
+    Student Suparna;
+    Suparna.id=2202144;
+    Suparna.cgpa=3.81;
+    Suparna.display();
+    cout<<Suparna.id<<" "<<Suparna.cgpa;
 }
