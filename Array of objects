@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+class samp {
+    int a;
+public:
+    void set_a(int n) {
+        a = n;
+    }
+    int get_a() {
+        return a;
+    }
+};
+
+int main() {
+    samp ob[4]; // Create an array of 4 objects
+    int values[4] = {-1, -2, -3, -4}; // Values to be assigned
+    int i;
+
+    // Setting values
+    for (i = 0; i < 4; i++) {
+        ob[i].set_a(values[i]); // Assign values to objects
+    }
+
+    // Getting and printing values
+    for (i = 0; i < 4; i++) {
+        cout << ob[i].get_a() << " ";
+    }
+
+    return 0;
+}
